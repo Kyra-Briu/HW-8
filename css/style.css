@@ -1,0 +1,90 @@
+/* Завдання 1 */
+
+
+h3:first-child {
+    color:pink;
+}
+#greycol {
+    color:gray;
+}
+.yellow {
+    color:yellow;
+}
+p:nth-child(7){
+    color:green;
+}
+div div p{
+    color:red;
+}
+
+
+/*  Завдання 2 */
+
+
+ul{
+    width:150px;
+    height:150px;
+    background-color: rgb(0, 0, 0);
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+li{
+    color:white;
+}
+
+
+div #M-title{
+    color:black;
+}
+.lesson-m:first-child {
+    color:red;
+}
+.lesson-m:last-child {
+    color:red;
+}
+.lesson-m{
+    color: black;
+}
+.lesson-m:hover{
+    color: white;
+}
+
+
+
+
+.t-links:visited{
+    color:red;
+}
+
+
+
+
+.Wednesday li:nth-child(2n) {
+    color:chocolate;
+}
+.Wednesday:hover{
+    background-color:darkorange;
+}
+
+
+
+
+.lessons-th:nth-child(n+5){
+    color:deeppink;
+}
+.lessons-th:hover{
+    text-decoration: line-through;
+}
+/* .Thursday:focus{
+    color:rgb(0, 255, 255);
+} */
+/* focus-пряцює лише з кнопками,посиланнями та інпутами так як інакше фокус до них не доходить */
+
+
+
+.f-link:focus{
+    font-size:20px;
+    color:firebrick;
+}
